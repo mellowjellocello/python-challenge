@@ -70,7 +70,8 @@ Total Months: {total_months}
 Total: ${total_net}
 Average Change: ${round(avgchange, 2)}
 Greatest Increase in Profits: {gincreasem} (${gincrease})
-Greatest Decrease in Profits: {gdecreasem} (${gdecrease})"""
+Greatest Decrease in Profits: {gdecreasem} (${gdecrease})
+"""
 
 # Print the output
 print(output)

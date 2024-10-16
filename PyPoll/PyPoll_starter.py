@@ -70,7 +70,8 @@ Total Votes: {total_votes}
 {candidateresults}
 -------------------------
 Winner: {currentwinner}
--------------------------"""
+-------------------------
+"""
 
 print(results)
 
