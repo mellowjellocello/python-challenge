@@ -5,12 +5,6 @@
 import os
 import csv
 
-from PIL.ImImagePlugin import split
-from mypyc.namegen import candidate_suffixes
-from numpy.ma.extras import row_stack
-from spyder.utils.external.lockfile import unique
-from sympy.codegen.cnodes import union
-
 # Files to load and output (update with correct file paths)
 file_to_load = os.path.join("Resources", "election_data.csv")  # Input file path
 file_to_output = os.path.join("analysis", "election_analysis.txt")  # Output file path
